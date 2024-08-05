@@ -12,5 +12,5 @@ const calculate = (a, b, result) => {
     }
 }
     
-console.log(calculate(5, 3, '+'));
-console.log(calculate(3, 3, '/'));
+(calculate(5, 3, '+'));
+(calculate(3, 3, '/'));
