@@ -1,14 +1,14 @@
 const calculate = (a, b, result) => {
     if (result === '+') {
-        return a + b
+        return a + b;
     } else if (result === '/') {
-        return a / b
+        return a / b;
     } else if (result === '-') {
-        return a - b
+        return a - b;
     } else if (result === '*') {
-        return a * b
+        return a * b;
     } else {
-        return 'error'
+        return 'error';
     }
 }
     
