@@ -8,12 +8,12 @@ const calculate = (a, b, operation) => {
     } else if (operation === '*') {
         return a * b;
     } else {
-        return 'error';
+        return 'throw new error';
     }
 }
     
-(calculate(5, 3, '+'));
-(calculate(3, 3, '/'));
+calculate(5, 3, '+');
+calculate(3, 3, '/');
 
 
 const calculate2 = (a, b, operation) => {
@@ -27,9 +27,9 @@ const calculate2 = (a, b, operation) => {
         case '/':
             return a / b;
         default:
-            return 'error';
+            return 'throw new error';
     }
 }
 
-(calculate2(5, 3, '+'));
-(calculate2(3, 3, '/'));
+calculate2(5, 3, '+');
+calculate2(3, 3, '/');
