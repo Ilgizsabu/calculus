@@ -8,7 +8,7 @@ const calculate = (a, b, operation) => {
     } else if (operation === '*') {
         return a * b;
     } else {
-        return 'throw new error';
+        return Nan;
     }
 }
     
@@ -27,7 +27,7 @@ const calculate2 = (a, b, operation) => {
         case '/':
             return a / b;
         default:
-            return 'throw new error';
+            return Nan;
     }
 }
 
